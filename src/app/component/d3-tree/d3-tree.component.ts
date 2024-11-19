@@ -2,11 +2,10 @@ import { Component, OnInit, ElementRef } from '@angular/core';
 import * as d3 from 'd3';
 
 @Component({
-  selector: 'app-d3-tree',
-  standalone: true,
-  imports: [],
-  templateUrl: './d3-tree.component.html',
-  styleUrl: './d3-tree.component.scss'
+    selector: 'app-d3-tree',
+    imports: [],
+    templateUrl: './d3-tree.component.html',
+    styleUrl: './d3-tree.component.scss'
 })
 export class D3TreeComponent implements OnInit  {
   private data = {

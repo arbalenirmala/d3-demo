@@ -2,11 +2,10 @@ import { Component, OnInit, ElementRef, Input, OnChanges, SimpleChanges } from '
 import * as d3 from 'd3';
 
 @Component({
-  selector: 'app-multi-line-chart',
-  standalone: true,
-  imports: [],
-  templateUrl: './multi-line-chart.component.html',
-  styleUrl: './multi-line-chart.component.scss'
+    selector: 'app-multi-line-chart',
+    imports: [],
+    templateUrl: './multi-line-chart.component.html',
+    styleUrl: './multi-line-chart.component.scss'
 })
 export class MultiLineChartComponent implements OnInit, OnChanges {
   multiLineChartData = [

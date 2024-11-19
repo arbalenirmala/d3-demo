@@ -2,11 +2,10 @@ import { Component, ElementRef, OnInit } from '@angular/core';
 import * as d3 from 'd3';
 
 @Component({
-  selector: 'app-d3-chart',
-  standalone: true,
-  imports: [],
-  templateUrl: './d3-chart.component.html',
-  styleUrl: './d3-chart.component.scss'
+    selector: 'app-d3-chart',
+    imports: [],
+    templateUrl: './d3-chart.component.html',
+    styleUrl: './d3-chart.component.scss'
 })
 export class D3ChartComponent implements OnInit {
 

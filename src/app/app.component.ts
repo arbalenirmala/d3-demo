@@ -5,11 +5,10 @@ import{ D3ChartComponent } from './component/d3-chart/d3-chart.component';
 import {D3TreeComponent} from './component/d3-tree/d3-tree.component';
 
 @Component({
-  selector: 'app-root',
-  standalone: true,
-  imports: [CommonModule, RouterOutlet],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
+    selector: 'app-root',
+    imports: [CommonModule, RouterOutlet],
+    templateUrl: './app.component.html',
+    styleUrl: './app.component.scss'
 })
 export class AppComponent {
   title = 'd3-demo';
